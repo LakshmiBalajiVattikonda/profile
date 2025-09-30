@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vattikonda Lakshmi Balaji — Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --accent: #2563eb;
+      --muted: #6b7280;
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --radius: 14px;
+      font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg, var(--bg), #ffffff 60%);color:#0f172a;line-height:1.5;}
+    .container{max-width:1000px;margin:36px auto;padding:24px;}
+    header{display:flex;gap:20px;align-items:center;background:var(--card);border-radius:var(--radius);padding:20px;box-shadow:0 6px 18px rgba(15,23,42,0.06);}
+    .avatar{width:110px;height:110px;border-radius:16px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:28px;}
+    h1{margin:0;font-size:22px}
+    .title{color:var(--muted);margin-top:6px;font-weight:600}
+    .meta{margin-top:8px;color:var(--muted);font-size:14px}
+    main{margin-top:20px;display:grid;grid-template-columns: 1fr 320px;gap:18px;}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 16px rgba(15,23,42,0.04);}
+    .section-title{font-weight:700;margin-bottom:8px}
+    .skills {display:flex; gap:8px; flex-wrap:wrap}
+    .chip{padding:6px 10px;border-radius:999px;background:#f1f5f9;color:#0f172a;font-size:13px;border:1px solid #e6eef8}
+    .projects li{margin-bottom:10px}
+    .contact-list{list-style:none;padding:0;margin:0}
+    .contact-list li{margin-bottom:8px;color:var(--muted)}
+    .btn{display:inline-block;padding:10px 16px;border-radius:10px;text-decoration:none;background:var(--accent);color:white;font-weight:600;}
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+    @media (max-width:880px){main{grid-template-columns:1fr} .container{padding:16px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">VLB</div>
+      <div>
+        <h1>Vattikonda Lakshmi Balaji </h1>
+        <h1>Student ID: 16386514</h1>
+        <div class="title">Aspiring ML Engineer | AI & Cloud Enthusiast</div>
+        
+      </div>
+    </header>
+
+    <main>
+      <section class="card about" id="about">
+        <div class="section-title">About</div>
+        <p>
+          Currently pursuing a Master’s student in Computer Science at the University of Missouri–Kansas City (UMKC), with a strong foundation in Machine Learning, Artificial Intelligence, and Cloud Computing. I enjoy building real-world projects and exploring new technologies.
+        </p>
+
+        <div style="margin-top:14px">
+          <div class="section-title">Education</div>
+          <ul>
+            <li><strong>RMK Engineering College</strong>, Chennai (2021–2025) — B.E. CSE (CGPA: 7.55/10)</li>
+            <li><strong>Sri Chaitanya Jr. College</strong>, Tirupati (2019–2021) — 77.4%</li>
+            <li><strong>Red Cherries School</strong>, Tirupati (2018–2019) — GPA: 8.3/10</li>
+          </ul>
+        </div>
+
+        <div style="margin-top:14px">
+          <div class="section-title">Skills</div>
+          <div class="skills">
+            <span class="chip">Python</span>
+            <span class="chip">HTML/CSS</span>
+            <span class="chip">C#</span>
+            <span class="chip">Machine Learning</span>
+            <span class="chip">Artificial Intelligence</span>
+            <span class="chip">MongoDB</span>
+            <span class="chip">Google Cloud</span>
+            <span class="chip">Android Studio</span>
+          </div>
+        </div>
+
+        <div style="margin-top:14px">
+          <div class="section-title">Experience</div>
+          <ul>
+            <li><strong>Machine Learning Intern</strong> — Pantech Solutions, Chennai (Mar–Apr 2024)</li>
+            <li><strong>AI Intern</strong> — Pantech Solutions, Chennai (Jul–Aug 2023)</li>
+            <li><strong>Android Developer Intern</strong> — NSIC Technical Service Centre, Chennai (Jan–Feb 2023)</li>
+          </ul>
+        </div>
+
+        <div style="margin-top:14px">
+          <div class="section-title">Projects</div>
+          <ul class="projects">
+            <li><strong>Attendance System (Face Recognition)</strong> — ML-based automated attendance tracker.</li>
+            <li><strong>Hand Gesture Recognition</strong> — DL model for real-time gesture-based interaction.</li>
+            <li><strong>Speech Emotion Analysis</strong> — NLP system for analyzing emotions from speech.</li>
+          </ul>
+        </div>
+      </section>
+
+      <aside>
+        <div class="card" id="contact">
+          <div class="section-title">Contact</div>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> <a href="mailto:lakshmibalajivattikonda@gmail.com">lakshmibalajivattikonda@gmail.com</a></li>
+            <li><strong>Phone:</strong> 8074656082</li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/lakshmibalajivattikonda/" target="_blank">linkedin.com/in/lakshmibalajivattikonda</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/LakshmiBalajiVattikonda" target="_blank">github.com/LakshmiBalajiVattikonda</a></li>
+          </ul>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <div class="section-title">Certificates</div>
+          <ul>
+            <li>Master C-Programming — Infosys Springboard</li>
+            <li>Intro to Machine Learning — AWS</li>
+            <li>ML Terminology & Process — AWS</li>
+            <li>Intro to Python — Infosys Springboard</li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      © <span id="year"></span> Vattikonda Lakshmi Balaji
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').innerText = new Date().getFullYear();
+  </script>
+</body>
+</html>
